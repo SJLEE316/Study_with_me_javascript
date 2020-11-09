@@ -153,6 +153,7 @@ hello();
 // function calculation(command, a, b)
 // command: add, substract, divide, multiply, remainder
 
+//My solution
 function calculation(command, a, b) {
     switch(command) {
         case 'add':
@@ -170,8 +171,26 @@ function calculation(command, a, b) {
         case 'remainder':
             console.log(a % b);
             break;
-    
     }
 }
 
 calculation('remainder',6,4);
+
+//Ellie solution
+function calculate(command, a, b) {
+    switch(command) {
+        case 'add':
+            return a + b;
+        case 'substract':
+            return a - b;
+        case 'multiply':
+            return a * b;
+        case 'divide':
+            return a / b;
+        case 'remainder':
+            return a % b;
+        default:
+            throw Error('unknown command');
+    }
+}
+console.log(calculate('add', 2, 3));
