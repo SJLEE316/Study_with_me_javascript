@@ -39,8 +39,10 @@
         - ```symbol```
             - create unique identifiers for objects
         - ```object``` ```real-life object``` ```data structure```
+
     - Dynamic typing
         - dynamically typed language
+
 4. operator, if, for loop
     - String concatenation
     - Numeric operators
@@ -69,6 +71,47 @@
         - nested loops
         - break : loop를 완전히 끝내는 것
         - continue : 그 부분만 skip
+        
+5. Arrow Function
+    #### Function
+        - fundamental building block in the program
+        - subprogram can be used multiple times
+        - performs a task or calculates a value
+    - Function declaration
+        - function name(param1, param2) {body... return;}
+        - one function === one thing
+        - naming: doSomething, command, verb
+        - e.g. createrCardAndPoint -> createCard, createPoint
+        - function is object in JS
+    - Parameters
+        - premitive parameters: passed by value
+        - object parameters: passed by reference
+    - Default parameters (added in ES6)
+    - Rest parameters (added in ES6
+    - Local scope
+        - 밖에서는 안이 보이지 않고, 안에서만 밖을 볼 수 있다.
+    - Return a value
+    - Early return, early exit
 
+    ```
+        First-class function
+            - functions are treated like any other variable
+            - can be assigned as a value to variable
+            - can be passed as an argument to other functions
+            - can be returned by another function
+    ```
 
-
+    - Function expression
+        - function declaration can be called earlier than it is defined. (hoisted)
+        - function expression is created when the execution reaches it.
+        - Function expression(no hoisted) vs Function declaration(hoisted)
+        - annoymous function, named function
+    - Callback function using function expression
+        - Anonymous function
+        - Named function
+            - better debugging in debugger's stack traces
+            - recursions
+        - Arrow function
+            - always anonymous
+        - IIFE: Immediately Invoked Function Expression
+        
