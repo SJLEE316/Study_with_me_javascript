@@ -114,4 +114,23 @@
         - Arrow function
             - always anonymous
         - IIFE: Immediately Invoked Function Expression
-        
+
+6. Class vs Object
+    ```
+        - Object-oriendted programming
+        - class : template
+        - object : instance of a class
+        - Javascript classes
+            - introduced in ES6
+            - syntactical sugar over prototype-based inheritance
+    ```
+    - Class declarations
+    - Getter and setters
+    - Fields (public, private)
+        - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
+        - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields
+    - Static properties and methods
+    - Inheritance
+        - a way for one class to extend another class.
+    - Class checking: instanceOf
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
