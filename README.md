@@ -134,3 +134,28 @@
         - a way for one class to extend another class.
     - Class checking: instanceOf
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
+7. Objects
+    ```
+        - Objects
+        - one of the JavaScript's data types.
+        - a collection of related data and/or functionality.
+        - Nearly all objects in JavaScript are instances of Object
+        - object = { key : value };
+    ```
+    - Literals and properties
+        - 'object literal' syntax
+        - 'object constructor' syntax
+        - can add properties later
+        - can delete properties later
+    - Computed properties
+        - key should be always string
+    - Constructor function
+    - in operator: property existence check (key in obj)
+    - for..in vs for..of
+        - for (key in obj)
+        - for (value of iterable)
+    - Fun cloning
+        - Object.assign(dest, [obj1, obj2, obj3...])
+        - old way vs new way
+
