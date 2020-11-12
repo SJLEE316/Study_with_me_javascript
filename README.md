@@ -94,11 +94,11 @@
     - Early return, early exit
 
     ```
-        First-class function
-            - functions are treated like any other variable
-            - can be assigned as a value to variable
-            - can be passed as an argument to other functions
-            - can be returned by another function
+    First-class function
+        - functions are treated like any other variable
+        - can be assigned as a value to variable
+        - can be passed as an argument to other functions
+        - can be returned by another function
     ```
 
     - Function expression
@@ -117,12 +117,12 @@
 
 6. Class vs Object
     ```
-        - Object-oriendted programming
-        - class : template
-        - object : instance of a class
-        - Javascript classes
-            - introduced in ES6
-            - syntactical sugar over prototype-based inheritance
+    - Object-oriendted programming
+    - class : template
+    - object : instance of a class
+    - Javascript classes
+        - introduced in ES6
+        - syntactical sugar over prototype-based inheritance
     ```
     - Class declarations
     - Getter and setters
@@ -137,11 +137,11 @@
 
 7. Objects
     ```
-        - Objects
-        - one of the JavaScript's data types.
-        - a collection of related data and/or functionality.
-        - Nearly all objects in JavaScript are instances of Object
-        - object = { key : value };
+    - Objects
+    - one of the JavaScript's data types.
+    - a collection of related data and/or functionality.
+    - Nearly all objects in JavaScript are instances of Object
+    - object = { key : value };
     ```
     - Literals and properties
         - 'object literal' syntax
@@ -159,3 +159,31 @@
         - Object.assign(dest, [obj1, obj2, obj3...])
         - old way vs new way
 
+8. Array
+    - Declaration
+    - Index position
+    - Looping over an array
+        - print all fruits
+            - for
+            - for of
+            - forEach
+    - Addition, deletion, copy
+        - push: add an item to the end
+        - pop: remove an item from the end
+        - unshift: add an item to the beginning
+        - shift: remove an item to the beginning
+        ```
+        note! 
+
+        shift, unshift are slower than pop, push
+        pop, push는 뒤에서부터 넣고 빼고 넣고 빼고 -> 앞의 데이터는 건드리지 않는다
+        shift : 삭제하고 한 칸씩 앞으로 당긴다
+        unshift : 데이터를 한 칸씩 미루고 빈 칸에 데이터를 넣는다
+        ```
+        - splice: remove an item by index position (possible to add data)
+        - combine two arrays
+    - Searching
+        - find the index
+            - indexOf
+            - includes
+            - lastIndexOf
