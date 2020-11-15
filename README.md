@@ -187,3 +187,15 @@
             - indexOf
             - includes
             - lastIndexOf
+
+9. Array APIs
+    - join
+    - split
+    - reverse
+    - splice vs slice
+    - find
+    - filter
+    - map
+    - some
+    - every
+    - reduce
