@@ -138,10 +138,10 @@
 7. Objects
     ```
     - Objects
-    - one of the JavaScript's data types.
-    - a collection of related data and/or functionality.
-    - Nearly all objects in JavaScript are instances of Object
-    - object = { key : value };
+        - one of the JavaScript's data types.
+        - a collection of related data and/or functionality.
+        - Nearly all objects in JavaScript are instances of Object
+        - object = { key : value };
     ```
     - Literals and properties
         - 'object literal' syntax
@@ -199,3 +199,23 @@
     - some
     - every
     - reduce
+
+10. JSON
+    ```
+    - JSON
+        - JavaScript Object Notaion
+        - object -> string(JSON) : serialize
+        - object <- string(JSON) : deserialize
+    ```
+    - Object to JSON
+        - stringify(obj)
+    - JSON to Object
+        - parse(json)
+    - HOW TO STUDY
+        - MDN : https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+        - JavaScript.info.english : https://javascript.info/json
+        - JavaScript.info.korean : https://ko.javascript.info/json
+        - JSON Diff checker : http://www.jsondiff.com/
+        - JSON Beautifier/editor : https://jsonbeautifier.org/
+        - JSON Parser : https://jsonparser.org/
+        - JSON Validator : https://tools.learningcontainer.com/json-validator/
