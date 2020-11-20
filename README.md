@@ -219,3 +219,15 @@
         - JSON Beautifier/editor : https://jsonbeautifier.org/
         - JSON Parser : https://jsonparser.org/
         - JSON Validator : https://tools.learningcontainer.com/json-validator/
+
+11. Async
+    ```
+    - JavaScript is synchronous.
+    - Execute the code block in order after hoisting.
+    - hoisting: var, function declaration 선언들이 자동적으로 제일 위로 올라가는 것
+    ```
+    - Callback
+        - Synchronous callback
+        - Asynchronous callback
+        - Callback Hell example
+
