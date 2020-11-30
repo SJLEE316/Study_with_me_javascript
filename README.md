@@ -231,3 +231,20 @@
         - Asynchronous callback
         - Callback Hell example
 
+    - Promise
+        - Promise is a JavaScript object for asynchronous operations.
+        ```
+        Promise는 두 가지만 알면 된다!
+
+        - state : pending -> fulfiled or rejected
+        - Producer vs Consumer
+        ```
+        - Producer
+            - when new Promise is created, the executor runs automatically.
+        - Consumers: then, catch, finally
+        - Promise chaning
+        - Error Handling
+
+
+
+
