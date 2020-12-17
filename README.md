@@ -274,3 +274,17 @@
       - clear style of using promise :)
       - async
       - await
+
+12. Function Basic
+
+    - 함수 선언 & 함수 호출
+    - 값을 리턴하는 함수
+    - 함수를 인자로 전달
+    - 함수를 변수에 할당
+
+    ```
+    Review!
+
+    선언 - 어떤 값을 받아 올 건지 인자 정의
+    호출 - 함수(인자)
+    ```
